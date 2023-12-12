@@ -1,4 +1,4 @@
-package com.gunder.mvvm.data.remote
+package com.gunder.mvvm.di
 
 import com.gunder.mvvm.data.local.UserServices
 import dagger.Module

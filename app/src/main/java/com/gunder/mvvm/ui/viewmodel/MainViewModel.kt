@@ -1,4 +1,4 @@
-package com.gunder.mvvm.viewmodel
+package com.gunder.mvvm.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
