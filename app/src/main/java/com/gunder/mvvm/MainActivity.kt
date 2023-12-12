@@ -31,8 +31,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.gunder.mvvm.data.remote.User
+import com.gunder.mvvm.data.local.User
 import com.gunder.mvvm.ui.theme.MvvmTheme
+import com.gunder.mvvm.viewmodel.MainViewModel
+import com.gunder.mvvm.viewmodel.UserState
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

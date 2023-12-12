@@ -1,4 +1,4 @@
-package com.gunder.mvvm.data.remote
+package com.gunder.mvvm.data.local
 
 import retrofit2.http.GET
 

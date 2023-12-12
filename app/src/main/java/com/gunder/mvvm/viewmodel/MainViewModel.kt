@@ -1,10 +1,9 @@
-package com.gunder.mvvm
+package com.gunder.mvvm.viewmodel
 
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.gunder.mvvm.data.remote.User
-import com.gunder.mvvm.data.remote.UserServices
+import com.gunder.mvvm.data.local.User
+import com.gunder.mvvm.data.local.UserServices
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
